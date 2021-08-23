@@ -4,6 +4,10 @@ class CfgPatches
 	{
 		units[]=
 		{
+			"SL_CoyoteBag_Green_80",
+			"SL_AliceBag_Green_100",
+			"SL_AliceBag_Black_100",
+			"SL_AliceBag_Camo_100",
 			"SL_MountainBag_120_Green",
 			"SL_MountainBag_250_Green",
 			"SL_MountainBag_500_Green",
@@ -31,18 +35,24 @@ class CfgVehicles
 	class CoyoteBag_Green;
 	class SL_CoyoteBag_Green_80: CoyoteBag_Green
 	{
-
+		itemsCargoSize[]={8,10};
 	};
 
 	class AliceBag_Green;
 	class AliceBag_Black;
 	class AliceBag_Camo;
 	class SL_AliceBag_Green_100: AliceBag_Green
-	{};
+	{
+		itemsCargoSize[]={10,10};
+	};
 	class SL_AliceBag_Black_100: AliceBag_Black
-	{};
+	{
+		itemsCargoSize[]={10,10};
+	};
 	class SL_AliceBag_Camo_100: AliceBag_Camo
-	{};
+	{
+		itemsCargoSize[]={10,10};
+	};
 
 	class MountainBag_ColorBase;
 	class SL_MountainBag_120_Green: MountainBag_ColorBase
