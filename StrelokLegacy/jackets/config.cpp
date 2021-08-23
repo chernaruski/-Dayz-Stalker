@@ -31,5 +31,59 @@ class CfgVehicles
 			"\StrelokLegacy\jackets\m65\data\SL_m65_jacket_khaki_co.paa",
 			"\StrelokLegacy\jackets\m65\data\SL_m65_jacket_khaki_co.paa"
 		};
+
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=500;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\characters\tops\Data\M65_Jacket.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\characters\tops\Data\M65_Jacket.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\characters\tops\Data\M65_Jacket_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\characters\tops\Data\M65_Jacket_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\characters\tops\Data\M65_Jacket_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
 	};
 };

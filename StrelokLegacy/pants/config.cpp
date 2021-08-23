@@ -31,5 +31,96 @@ class CfgVehicles
 			"\StrelokLegacy\pants\cargo\data\SL_cargopants_green_co.paa",
 			"\StrelokLegacy\pants\cargo\data\SL_cargopants_green_co.paa"
 		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=500;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\characters\pants\Data\CargoPants.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\characters\pants\Data\CargoPants.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\characters\pants\Data\CargoPants_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\characters\pants\Data\CargoPants_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\characters\pants\Data\CargoPants_destruct.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+			class GlobalArmor
+			{
+				class Melee
+				{
+					class Health
+					{
+						damage=0.89999998;
+					};
+					class Blood
+					{
+						damage=0.89999998;
+					};
+					class Shock
+					{
+						damage=0.89999998;
+					};
+				};
+				class Infected
+				{
+					class Health
+					{
+						damage=0.89999998;
+					};
+					class Blood
+					{
+						damage=0.89999998;
+					};
+					class Shock
+					{
+						damage=0.89999998;
+					};
+				};
+			};
+		};
 	};
 };
