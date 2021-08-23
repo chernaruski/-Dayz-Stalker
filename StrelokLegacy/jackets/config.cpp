@@ -84,6 +84,39 @@ class CfgVehicles
 					};
 				};
 			};
+			class GlobalArmor
+			{
+				class Melee
+				{
+					class Health
+					{
+						damage=0.89999998;
+					};
+					class Blood
+					{
+						damage=0.80000001;
+					};
+					class Shock
+					{
+						damage=0.89999998;
+					};
+				};
+				class Infected
+				{
+					class Health
+					{
+						damage=0.89999998;
+					};
+					class Blood
+					{
+						damage=0.80000001;
+					};
+					class Shock
+					{
+						damage=0.89999998;
+					};
+				};
+			};
 		};
 	};
 };
