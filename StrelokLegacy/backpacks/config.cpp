@@ -29,14 +29,20 @@ class CfgPatches
 class CfgVehicles
 {
 	class CoyoteBag_Green;
-	class SL_CoyoteBag_Green_80: CoyoteBag_Green;
+	class SL_CoyoteBag_Green_80: CoyoteBag_Green
+	{
+
+	};
 
 	class AliceBag_Green;
 	class AliceBag_Black;
 	class AliceBag_Camo;
-	class SL_AliceBag_Green_100: AliceBag_Green;
-	class SL_AliceBag_Black_100: AliceBag_Black;
-	class SL_AliceBag_Camo_100: AliceBag_Camo;
+	class SL_AliceBag_Green_100: AliceBag_Green
+	{};
+	class SL_AliceBag_Black_100: AliceBag_Black
+	{};
+	class SL_AliceBag_Camo_100: AliceBag_Camo
+	{};
 
 	class MountainBag_ColorBase;
 	class SL_MountainBag_120_Green: MountainBag_ColorBase
