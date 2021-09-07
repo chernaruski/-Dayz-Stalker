@@ -48,7 +48,7 @@ class CfgMagazines
 	};
     class Ammo_762x25: Ammunition_Base
 	{
-		count=100;
+		count=150;
 	};
     class Ammo_762x39: Ammunition_Base
 	{
