@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class SL_retexAoD_vest
+	class SL_Vests
 	{
 		units[]={};
 		weapons[]={};
