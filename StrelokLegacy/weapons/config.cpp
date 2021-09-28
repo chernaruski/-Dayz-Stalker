@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class SL_DZ_Weapons_Shotgun_Vepr12
+	class SL_DZ_Weapons
 	{
 		units[]=
 		{
@@ -99,35 +99,9 @@ class cfgWeapons
 			};
 		};
 	};
-	class dzrp_PKM;
-	class SL_PKM: dzrp_PKM
-	{
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=1500;
-				};
-			};
-		};
-	};
-	class dzrp_AN94tactical;
-	class SL_AN94tactical: dzrp_AN94tactical
-	{
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=1000;
-				};
-			};
-		};
-	};
+	
 	class dzrp2_1014;
+	
 	class SL_1014: dzrp2_1014
 	{
 		class DamageSystem
@@ -141,7 +115,39 @@ class cfgWeapons
 			};
 		};
 	};
+	
+	class dzrp_PKM;
+	
+	class SL_PKM: dzrp_PKM
+	{
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=1500;
+				};
+			};
+		};
+	};
+	
+	class SL_PKM_donate: dzrp_PKM
+	{
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=10000;
+				};
+			};
+		};
+	};	
+	
 	class dzrp2_PKP;
+	
 	class SL_PKP: dzrp2_PKP
 	{
 		class DamageSystem
@@ -151,6 +157,20 @@ class cfgWeapons
 				class Health
 				{
 					hitpoints=1500;
+				};
+			};
+		};
+	};
+	
+	class SL_PKP_donate: dzrp2_PKP
+	{
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=10000;
 				};
 			};
 		};

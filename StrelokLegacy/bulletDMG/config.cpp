@@ -192,30 +192,4 @@ class CfgAmmo
 			};
 		};
 	};
-	class air_Ammo_127x55;
-	class SL_Ammo_127x55: air_Ammo_127x55
-	{
-		class DamageApplied
-		{
-			type="Projectile";
-			dispersion=0;
-			bleedThreshold=1;
-			defaultDamageOverride[]=
-			{
-				{0.5,1}
-			};
-			class Health
-			{
-				damage=275;
-			};
-			class Blood
-			{
-				damage=100;
-			};
-			class Shock
-			{
-				damage=60;
-			};
-		};
-	};
 };
