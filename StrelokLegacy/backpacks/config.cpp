@@ -37,7 +37,6 @@ class CfgVehicles
 	{
 		itemsCargoSize[]={8,10};
 	};
-
 	class AliceBag_Green;
 	class AliceBag_Black;
 	class AliceBag_Camo;
@@ -53,7 +52,6 @@ class CfgVehicles
 	{
 		itemsCargoSize[]={10,10};
 	};
-
 	class MountainBag_ColorBase;
 	class SL_MountainBag_120_Green: MountainBag_ColorBase
 	{
@@ -122,7 +120,6 @@ class CfgVehicles
 			"\StrelokLegacy\backpacks\data\sl_mountain_green_co.paa"
 		};
 	};
-
 	class SL_MountainBag_120_Black: MountainBag_ColorBase
 	{
 		scope=2;
@@ -190,7 +187,6 @@ class CfgVehicles
 			"\StrelokLegacy\backpacks\data\sl_mountain_black_co.paa"
 		};
 	};
-
 	class SL_MountainBag_120_Camo: MountainBag_ColorBase
 	{
 		scope=2;
@@ -258,7 +254,6 @@ class CfgVehicles
 			"\StrelokLegacy\backpacks\data\sl_mountain_camo_co.paa"
 		};
 	};
-
 	class SL_MountainBag_120_BlackCamo: MountainBag_ColorBase
 	{
 		scope=2;
@@ -325,5 +320,30 @@ class CfgVehicles
 			"\StrelokLegacy\backpacks\data\sl_mountain_blackcamo_co.paa",
 			"\StrelokLegacy\backpacks\data\sl_mountain_blackcamo_co.paa"
 		};
+	};
+	class FS_MiniBag_White;
+	class SL_MiniBag: FS_MiniBag_White
+	{
+		attachments[]=
+		{
+			"melee",
+			"Chemlight",
+			"Belt_Back",
+			"VestPouch",
+			"WalkieTalkie"
+		};
+		itemSize[]={3,5};
+		itemsCargoSize[]={10,50};
+	};
+	class Revivle_StalkerBag_monolit;
+	class SL_ArmyBag: Revivle_StalkerBag_monolit
+	{
+		attachments[]=
+		{
+			"Chemlight",
+			"WalkieTalkie"
+		};
+		itemSize[]={3,5};
+		itemsCargoSize[]={10,13};
 	};
 };

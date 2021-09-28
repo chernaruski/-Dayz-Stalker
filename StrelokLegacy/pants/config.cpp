@@ -21,7 +21,7 @@ class CfgVehicles
 	class SL_CargoPants_Khaki: CargoPants_Green
 	{
 		scope=2;
-		visibilityModifier=0.3;		
+		visibilityModifier=0.30000001;
 		itemSize[]={4,3};
 		itemsCargoSize[]={7,8};
 		heatIsolation=1;

@@ -18,7 +18,7 @@ class CfgPatches
 class CfgVehicles
 {
 	class KitchenKnife;
-    class SL_TacticalKnife: KitchenKnife
+	class SL_TacticalKnife: KitchenKnife
 	{
 		scope=2;
 		displayName="Тактический нож";
@@ -267,5 +267,4 @@ class CfgVehicles
 			};
 		};
 	};
-   
 };

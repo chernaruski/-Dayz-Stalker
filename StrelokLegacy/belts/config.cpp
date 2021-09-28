@@ -28,48 +28,47 @@ class CfgVehicles
 			hitpoints=1000;
 			healthLevels[]=
 			{
-						
+				
 				{
 					1,
-							
-						{
-							"DZ\characters\belts\data\mil_belt.rvmat"
-						}
+					
+					{
+						"DZ\characters\belts\data\mil_belt.rvmat"
+					}
 				},
-						
+				
 				{
 					0.69999999,
-							
-						{
-							"DZ\characters\belts\data\mil_belt.rvmat"
-						}
+					
+					{
+						"DZ\characters\belts\data\mil_belt.rvmat"
+					}
 				},
-						
+				
 				{
 					0.5,
-						
-						{
-							"DZ\characters\belts\data\mil_belt_damage.rvmat"
-						}
+					
+					{
+						"DZ\characters\belts\data\mil_belt_damage.rvmat"
+					}
 				},
-						
+				
 				{
 					0.30000001,
-							
-						{
-							"DZ\characters\belts\data\mil_belt_damage.rvmat"
-						}
+					
+					{
+						"DZ\characters\belts\data\mil_belt_damage.rvmat"
+					}
 				},
-						
+				
 				{
 					0,
-							
-						{
-							"DZ\characters\belts\data\mil_belt_destruct.rvmat"
-						}
+					
+					{
+						"DZ\characters\belts\data\mil_belt_destruct.rvmat"
+					}
 				}
 			};
 		};
 	};
 };
-	
