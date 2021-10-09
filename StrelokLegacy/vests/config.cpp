@@ -120,7 +120,46 @@ class cfgVehicles
 			"magazine2"
 		};
 	};
-	
+
+	//GP
+	//DOLG
+	class Skat_AoD_Duty_Vests;
+	class SL_Skat_Duty_Vest : Skat_AoD_Duty_Vests
+	{
+		attachments[]=
+		{
+			"magazine",
+			"magazine2",
+			"aod_VestMagazineC",
+			"aod_VestMagazineD"
+		};
+	}
+	//FREEDOM
+	class PS3_7_AoD_Freedom_Vests;
+	class SL_PS3_7_Freedom_Vests : PS3_7_AoD_Freedom_Vests
+	{
+		attachments[]=
+		{
+			"magazine",
+			"magazine2",
+			"aod_VestMagazineC",
+			"aod_VestMagazineD"
+		};
+	}
+	//clearsky
+	class ClearSky_AoD_Hevy_Vests;
+	class SL_ClearSky_Hevy_Vests : ClearSky_AoD_Hevy_Vests
+	{
+		attachments[]=
+		{
+			"magazine",
+			"magazine2",
+			"aod_VestMagazineC",
+			"aod_VestMagazineD",
+			"aod_VestMagazineC",
+			"aod_VestMagazineD"
+		};
+	}
 };
 
 class CfgSlots
