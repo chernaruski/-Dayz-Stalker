@@ -19,13 +19,14 @@ class CfgPatches
 class CfgVehicles
 {
 	class Mich2001Helmet;
-	class SL_Skat_Duty_Helm: Mich2001Helmet
+	class SL_Skat_Duty_Helm : Mich2001Helmet
 	{
 		scope=2;
 		displayName="Шлем «Сфера-12М» (Долг)";
 		descriptionShort="Армейский бронекостюм СКАТ-9М создан для проведения штурмовых операций в зонах активности аномалий. В составе: тяжёлый армейский бронекостюм серии ПСЗ-12п, встроенный компенсационный костюм, шлем Сфера-12М. Предоставляет великолепную защиту от пулевого и осколочного попадания, при этом не снижает подвижности солдата. В наличии сбалансированная система защиты от аномального воздействия.";
 		model="\areaofdecay\dz_aod_characters\helmet\helmet_skat\aod_skat_duty_helmet_g.p3d";
 		noMask=1;
+		
 		class DamageSystem
 		{
 			class GlobalHealth
@@ -168,7 +169,8 @@ class CfgVehicles
 			female="\areaofdecay\dz_aod_characters\helmet\helmet_skat\aod_skat_duty_helmet.p3d";
 		};
 	};
-	class SL_Skat_Mil_Helm: SL_Skat_Duty_Helm
+
+	class SL_Skat_Mil_Helm : SL_Skat_Duty_Helm
 	{
 		displayName="Шлем «Сфера-12М» (Военные)";
 		model="\areaofdecay\dz_aod_characters\helmet\helmet_skat\aod_skat_military_helmet_g.p3d";
@@ -315,6 +317,7 @@ class CfgVehicles
 		};
 	};
 };
+
 class CfgNonAIVehicles
 {
 	class ProxyAttachment;
@@ -345,4 +348,4 @@ class CfgNonAIVehicles
 		};
 		model="\dz\characters\headgear\proxies\helmet_flashlight.p3d";
 	};
-};
+};	

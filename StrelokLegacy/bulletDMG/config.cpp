@@ -16,7 +16,8 @@ class CfgPatches
 			"Bullet_9x39AP",
 			"Bullet_9x39",
 			"Bullet_762x39",
-			"Bullet_308Win"
+			"Bullet_308Win",
+			"SL_Ammo_127x55"
 		};
 	};
 };

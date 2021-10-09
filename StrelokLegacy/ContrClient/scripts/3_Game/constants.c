@@ -1,0 +1,2 @@
+const int CONTR_PSI_HITS = 2440;
+const int CONTR_PSI_HIT_HELMET = 2450;

@@ -2,10 +2,11 @@ class CfgPatches
 {
 	class SL_Containers
 	{
-		units[]=
-		{
+		units[]={
 			"SL_AmmoBox_100",
-			"SL_AmmoBox_500"
+			"SL_AmmoBox_500",
+			"SL_ProtectorCase_100",
+			"SL_FirstAidKit_100"
 		};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -20,7 +21,7 @@ class CfgVehicles
 	class AmmoBox;
 	class SmallProtectorCase;
 	class FirstAidKit;
-	class SL_AmmoBox_100: AmmoBox
+    class SL_AmmoBox_100: AmmoBox
 	{
 		scope=2;
 		displayName="Вместительная коробка для патронов";

@@ -1,8 +1,10 @@
 class CfgPatches
 {
-	class SL_Vests
+	class SL_retexAoD_vest
 	{
-		units[]={};
+		units[]=
+		{
+		};
 		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -35,6 +37,7 @@ class CfgMagazines
 		};
 	};
 };
+
 class cfgVehicles
 {
 	class aod_Vest_military_smershvest;
@@ -44,7 +47,9 @@ class cfgVehicles
 	class aod_Vest_loner1_tacticalvest;
 	class aod_Vest_military_tacticalvest;
 	class Revivle_Smersh_stalker_1;
-	class SL_military_smershvest: aod_Vest_military_smershvest
+	
+	//smersh
+	class SL_military_smershvest : aod_Vest_military_smershvest
 	{
 		attachments[]=
 		{
@@ -55,7 +60,19 @@ class cfgVehicles
 			"aod_VestMagazineD"
 		};
 	};
-	class SL_loner_smershvest: aod_Vest_loner_smershvest
+	class SL_loner_smershvest : aod_Vest_loner_smershvest
+	{
+		attachments[]=
+		{
+			"VestBackpack",
+			"magazine",
+			"magazine2",
+			"aod_VestMagazineC",
+			"aod_VestMagazineD"
+			
+		};
+	};
+	class SL_neytral_smershvest : aod_Vest_neytral_smershvest
 	{
 		attachments[]=
 		{
@@ -66,7 +83,7 @@ class cfgVehicles
 			"aod_VestMagazineD"
 		};
 	};
-	class SL_neytral_smershvest: aod_Vest_neytral_smershvest
+	class SL_Smersh_stalker_1 : Revivle_Smersh_stalker_1
 	{
 		attachments[]=
 		{
@@ -77,18 +94,9 @@ class cfgVehicles
 			"aod_VestMagazineD"
 		};
 	};
-	class SL_Smersh_stalker_1: Revivle_Smersh_stalker_1
-	{
-		attachments[]=
-		{
-			"VestBackpack",
-			"magazine",
-			"magazine2",
-			"aod_VestMagazineC",
-			"aod_VestMagazineD"
-		};
-	};
-	class SL_loner_tacticalvest: aod_Vest_loner_tacticalvest
+	
+	//tactical
+	class SL_loner_tacticalvest : aod_Vest_loner_tacticalvest
 	{
 		attachments[]=
 		{
@@ -96,7 +104,7 @@ class cfgVehicles
 			"magazine2"
 		};
 	};
-	class SL_loner1_tacticalvest: aod_Vest_loner1_tacticalvest
+	class SL_loner1_tacticalvest : aod_Vest_loner1_tacticalvest
 	{
 		attachments[]=
 		{
@@ -104,7 +112,7 @@ class cfgVehicles
 			"magazine2"
 		};
 	};
-	class SL_military_tacticalvest: aod_Vest_military_tacticalvest
+	class SL_military_tacticalvest : aod_Vest_military_tacticalvest
 	{
 		attachments[]=
 		{
@@ -112,7 +120,9 @@ class cfgVehicles
 			"magazine2"
 		};
 	};
+	
 };
+
 class CfgSlots
 {
 	class Slot_VestMagazineA
