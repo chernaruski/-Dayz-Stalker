@@ -88,7 +88,7 @@ class CfgVehicles
 			"Chemlight",
 			"Belt_Left",
 			"knife",
-			"WalkieTalkie"
+			"WalkieTalkie",
 			"CookingEquipment",
 			"cookingtripod"
 		};
@@ -161,7 +161,7 @@ class CfgVehicles
 			"Chemlight",
 			"Belt_Left",
 			"knife",
-			"WalkieTalkie"
+			"WalkieTalkie",
 			"CookingEquipment",
 			"cookingtripod"
 		};
@@ -234,7 +234,7 @@ class CfgVehicles
 			"Chemlight",
 			"Belt_Left",
 			"knife",
-			"WalkieTalkie"
+			"WalkieTalkie",
 			"CookingEquipment",
 			"cookingtripod"
 		};
@@ -307,7 +307,7 @@ class CfgVehicles
 			"Chemlight",
 			"Belt_Left",
 			"knife",
-			"WalkieTalkie"
+			"WalkieTalkie",
 			"CookingEquipment",
 			"cookingtripod"
 		};
@@ -409,7 +409,7 @@ class CfgVehicles
 			"Chemlight",
 			"Belt_Left",
 			"knife",
-			"WalkieTalkie"
+			"WalkieTalkie",
 			"CookingEquipment",
 			"cookingtripod"
 		};
@@ -439,7 +439,7 @@ class CfgVehicles
 			"Chemlight",
 			"Belt_Left",
 			"knife",
-			"WalkieTalkie"
+			"WalkieTalkie",
 			"CookingEquipment",
 			"cookingtripod"
 		};
@@ -469,7 +469,7 @@ class CfgVehicles
 			"Chemlight",
 			"Belt_Left",
 			"knife",
-			"WalkieTalkie"
+			"WalkieTalkie",
 			"CookingEquipment",
 			"cookingtripod"
 		};
@@ -499,7 +499,7 @@ class CfgVehicles
 			"Chemlight",
 			"Belt_Left",
 			"knife",
-			"WalkieTalkie"
+			"WalkieTalkie",
 			"CookingEquipment",
 			"cookingtripod"
 		};
@@ -529,7 +529,7 @@ class CfgVehicles
 			"Chemlight",
 			"Belt_Left",
 			"knife",
-			"WalkieTalkie"
+			"WalkieTalkie",
 			"CookingEquipment",
 			"cookingtripod"
 		};
