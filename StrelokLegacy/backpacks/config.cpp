@@ -86,8 +86,11 @@ class CfgVehicles
 		{
 			"melee",
 			"Chemlight",
+			"Belt_Left",
 			"knife",
 			"WalkieTalkie"
+			"CookingEquipment",
+			"cookingtripod"
 		};
 		itemSize[]={3,5};
 		itemsCargoSize[]={10,25};
@@ -156,8 +159,11 @@ class CfgVehicles
 		{
 			"melee",
 			"Chemlight",
+			"Belt_Left",
 			"knife",
 			"WalkieTalkie"
+			"CookingEquipment",
+			"cookingtripod"
 		};
 		itemSize[]={3,5};
 		itemsCargoSize[]={10,25};
@@ -226,8 +232,11 @@ class CfgVehicles
 		{
 			"melee",
 			"Chemlight",
+			"Belt_Left",
 			"knife",
 			"WalkieTalkie"
+			"CookingEquipment",
+			"cookingtripod"
 		};
 		itemSize[]={3,5};
 		itemsCargoSize[]={10,25};
@@ -296,8 +305,11 @@ class CfgVehicles
 		{
 			"melee",
 			"Chemlight",
+			"Belt_Left",
 			"knife",
 			"WalkieTalkie"
+			"CookingEquipment",
+			"cookingtripod"
 		};
 		itemSize[]={3,5};
 		itemsCargoSize[]={10,25};
@@ -382,4 +394,162 @@ class CfgVehicles
 		itemSize[]={3,5};
 		itemsCargoSize[]={10,50};
 	};
+
+	class dzrp_backpack_mountain_free;
+	class dzrp_backpack_mountain_dolg;
+	class dzrp_backpack_mountain_band;
+	class dzrp_backpack_mountain_green_st;
+	class dzrp_backpack_mountain_st2;
+
+	class SL_MountainBag_250_Svoboda : dzrp_backpack_mountain_free
+	{
+		attachments[]=
+		{
+			"melee",
+			"Chemlight",
+			"Belt_Left",
+			"knife",
+			"WalkieTalkie"
+			"CookingEquipment",
+			"cookingtripod"
+		};
+	};
+
+	class SL_MountainBag_500_Svoboda : dzrp_backpack_mountain_free
+	{
+		attachments[]=
+		{
+			"melee",
+			"Belt_Left",
+			"Belt_Back",
+			"VestHolster",
+			"VestPouch",
+			"WalkieTalkie",
+			"CookingEquipment",
+			"cookingtripod"
+		};
+		itemsCargoSize[]={10,50};
+	};
+
+	class SL_MountainBag_250_Dolg : dzrp_backpack_mountain_dolg
+	{
+		attachments[]=
+		{
+			"melee",
+			"Chemlight",
+			"Belt_Left",
+			"knife",
+			"WalkieTalkie"
+			"CookingEquipment",
+			"cookingtripod"
+		};
+	};
+
+	class SL_MountainBag_500_Dolg : dzrp_backpack_mountain_dolg
+	{
+		attachments[]=
+		{
+			"melee",
+			"Belt_Left",
+			"Belt_Back",
+			"VestHolster",
+			"VestPouch",
+			"WalkieTalkie",
+			"CookingEquipment",
+			"cookingtripod"
+		};
+		itemsCargoSize[]={10,50};
+	};
+
+	class SL_MountainBag_250_Band : dzrp_backpack_mountain_band
+	{
+		attachments[]=
+		{
+			"melee",
+			"Chemlight",
+			"Belt_Left",
+			"knife",
+			"WalkieTalkie"
+			"CookingEquipment",
+			"cookingtripod"
+		};
+	};
+
+	class SL_MountainBag_500_Band : dzrp_backpack_mountain_band
+	{
+		attachments[]=
+		{
+			"melee",
+			"Belt_Left",
+			"Belt_Back",
+			"VestHolster",
+			"VestPouch",
+			"WalkieTalkie",
+			"CookingEquipment",
+			"cookingtripod"
+		};
+		itemsCargoSize[]={10,50};
+	};
+
+	class SL_MountainBag_250_Green_st : dzrp_backpack_mountain_green_st
+	{
+		attachments[]=
+		{
+			"melee",
+			"Chemlight",
+			"Belt_Left",
+			"knife",
+			"WalkieTalkie"
+			"CookingEquipment",
+			"cookingtripod"
+		};
+	};
+
+	class SL_MountainBag_500_Green_st : dzrp_backpack_mountain_green_st
+	{
+		attachments[]=
+		{
+			"melee",
+			"Belt_Left",
+			"Belt_Back",
+			"VestHolster",
+			"VestPouch",
+			"WalkieTalkie",
+			"CookingEquipment",
+			"cookingtripod"
+		};
+		itemsCargoSize[]={10,50};
+	};
+
+	class SL_MountainBag_250_st2 : dzrp_backpack_mountain_st2
+	{
+		attachments[]=
+		{
+			"melee",
+			"Chemlight",
+			"Belt_Left",
+			"knife",
+			"WalkieTalkie"
+			"CookingEquipment",
+			"cookingtripod"
+		};
+	};
+
+	class SL_MountainBag_500_st2 : dzrp_backpack_mountain_st2
+	{
+		attachments[]=
+		{
+			"melee",
+			"Belt_Left",
+			"Belt_Back",
+			"VestHolster",
+			"VestPouch",
+			"WalkieTalkie",
+			"CookingEquipment",
+			"cookingtripod"
+		};
+		itemsCargoSize[]={10,50};
+	};
+
+
 };

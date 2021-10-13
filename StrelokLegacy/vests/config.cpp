@@ -155,8 +155,6 @@ class cfgVehicles
 			"magazine",
 			"magazine2",
 			"aod_VestMagazineC",
-			"aod_VestMagazineD",
-			"aod_VestMagazineC",
 			"aod_VestMagazineD"
 		};
 	}
