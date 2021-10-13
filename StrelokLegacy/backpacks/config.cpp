@@ -413,6 +413,7 @@ class CfgVehicles
 			"CookingEquipment",
 			"cookingtripod"
 		};
+		itemsCargoSize[]={10,25};
 	};
 
 	class SL_MountainBag_500_Svoboda : dzrp_backpack_mountain_free
@@ -443,6 +444,7 @@ class CfgVehicles
 			"CookingEquipment",
 			"cookingtripod"
 		};
+		itemsCargoSize[]={10,25};
 	};
 
 	class SL_MountainBag_500_Dolg : dzrp_backpack_mountain_dolg
@@ -473,6 +475,7 @@ class CfgVehicles
 			"CookingEquipment",
 			"cookingtripod"
 		};
+		itemsCargoSize[]={10,25};
 	};
 
 	class SL_MountainBag_500_Band : dzrp_backpack_mountain_band
@@ -503,6 +506,7 @@ class CfgVehicles
 			"CookingEquipment",
 			"cookingtripod"
 		};
+		itemsCargoSize[]={10,25};
 	};
 
 	class SL_MountainBag_500_Green_st : dzrp_backpack_mountain_green_st
@@ -533,6 +537,7 @@ class CfgVehicles
 			"CookingEquipment",
 			"cookingtripod"
 		};
+		itemsCargoSize[]={10,25};
 	};
 
 	class SL_MountainBag_500_st2 : dzrp_backpack_mountain_st2
