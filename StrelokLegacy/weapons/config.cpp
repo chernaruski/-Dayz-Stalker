@@ -111,5 +111,20 @@ class cfgWeapons
 			};
 		};
 	};
+
+	class dzrp2_AK107;
+	class SL_AK107 : dzrp2_AK107
+	{
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=1000;
+				};
+			};
+		};
+	};
 };
 	

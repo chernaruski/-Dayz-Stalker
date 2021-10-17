@@ -192,4 +192,212 @@ class CfgAmmo
 			};
 		};
 	};
+
+	class Bullet_9x18: Bullet_Base
+	{
+		class DamageApplied
+		{
+			type="Projectile";
+			dispersion=0;
+			bleedThreshold=1;
+			defaultDamageOverride[]=
+			{
+				{0.5,1}
+			};
+			class Health
+			{
+				damage=50;
+			};
+			class Blood
+			{
+				damage=50;
+			};
+			class Shock
+			{
+				damage=60;
+			};
+		};
+	};
+
+	class Bullet_5_7x28: Bullet_Base
+	{
+		class DamageApplied
+		{
+			type="Projectile";
+			dispersion=0;
+			bleedThreshold=1;
+			defaultDamageOverride[]=
+			{
+				{0.5,1}
+			};
+			class Health
+			{
+				damage=100;
+			};
+			class Blood
+			{
+				damage=100;
+			};
+			class Shock
+			{
+				damage=60;
+			};
+		};
+	};
+
+	class Bullet_762X25: Bullet_Base
+	{
+		class DamageApplied
+		{
+			type="Projectile";
+			dispersion=0;
+			bleedThreshold=1;
+			defaultDamageOverride[]=
+			{
+				{0.5,1}
+			};
+			class Health
+			{
+				damage=110;
+			};
+			class Blood
+			{
+				damage=110;
+			};
+			class Shock
+			{
+				damage=60;
+			};
+		};
+	};
+
+	class Bullet_762X33: Bullet_Base
+	{
+		class DamageApplied
+		{
+			type="Projectile";
+			dispersion=0;
+			bleedThreshold=1;
+			defaultDamageOverride[]=
+			{
+				{0.5,1}
+			};
+			class Health
+			{
+				damage=140;
+			};
+			class Blood
+			{
+				damage=110;
+			};
+			class Shock
+			{
+				damage=60;
+			};
+		};
+	};
+
+	class Bullet_792X33: Bullet_Base
+	{
+		class DamageApplied
+		{
+			type="Projectile";
+			dispersion=0;
+			bleedThreshold=1;
+			defaultDamageOverride[]=
+			{
+				{0.5,1}
+			};
+			class Health
+			{
+				damage=150;
+			};
+			class Blood
+			{
+				damage=110;
+			};
+			class Shock
+			{
+				damage=60;
+			};
+		};
+	};
+
+	class Bullet_792X57: Bullet_Base
+	{
+		class DamageApplied
+		{
+			type="Projectile";
+			dispersion=0;
+			bleedThreshold=1;
+			defaultDamageOverride[]=
+			{
+				{0.5,1}
+			};
+			class Health
+			{
+				damage=175;
+			};
+			class Blood
+			{
+				damage=110;
+			};
+			class Shock
+			{
+				damage=60;
+			};
+		};
+	};
+
+	class Bullet_357: Bullet_Base
+	{
+		class DamageApplied
+		{
+			type="Projectile";
+			dispersion=0;
+			bleedThreshold=1;
+			defaultDamageOverride[]=
+			{
+				{0.5,1}
+			};
+			class Health
+			{
+				damage=120;
+			};
+			class Blood
+			{
+				damage=110;
+			};
+			class Shock
+			{
+				damage=60;
+			};
+		};
+	};
+
+	class Bullet_12x99: Bullet_Base
+	{
+		class DamageApplied
+		{
+			type="Projectile";
+			dispersion=0;
+			bleedThreshold=1;
+			defaultDamageOverride[]=
+			{
+				{0.5,1}
+			};
+			class Health
+			{
+				damage=250;
+			};
+			class Blood
+			{
+				damage=110;
+			};
+			class Shock
+			{
+				damage=60;
+			};
+		};
+	};
 };
