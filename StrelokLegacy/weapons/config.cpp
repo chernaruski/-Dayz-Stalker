@@ -7,7 +7,12 @@ class CfgPatches
 			"SL_Vepr12",
 			"SL_PKM",
 			"SL_PKP",
-			"SL_1014"
+			"SL_1014",
+			"SL_MP153_Black",
+			"SL_MP153",
+			"SL_AK107",
+			"SL_G36",
+			"SL_M14EBR"
 			
 		};
 		weapons[]={};
@@ -67,6 +72,7 @@ class cfgWeapons
 			};
 		};
 	};
+
 	class dzrp2_PKP;
 	class SL_PKP : dzrp2_PKP
 	{
@@ -76,11 +82,25 @@ class cfgWeapons
 			{
 				class Health
 				{
-					hitpoints=1500;
+					hitpoints=900;
 				};
 			};
 		};
 	};
+	class SL_PKP_donate : dzrp2_PKP
+	{
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=10000;
+				};
+			};
+		};
+	};
+
 	
 	class dzrp2_G36;
 	class SL_G36 : dzrp2_G36
@@ -126,5 +146,38 @@ class cfgWeapons
 			};
 		};
 	};
+
+	class air_weapon_MP153;
+	class air_weapon_MP153_Black;
+
+	class SL_MP153 : air_weapon_MP153 
+	{
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=1500;
+				};
+			};
+		};
+	}
+
+	class SL_MP153_Black : air_weapon_MP153_Black 
+	{
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=1500;
+				};
+			};
+		};
+	}
+
+	
 };
 	

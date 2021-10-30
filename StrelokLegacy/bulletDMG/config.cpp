@@ -388,7 +388,59 @@ class CfgAmmo
 			};
 			class Health
 			{
-				damage=250;
+				damage=4500;
+			};
+			class Blood
+			{
+				damage=110;
+			};
+			class Shock
+			{
+				damage=60;
+			};
+		};
+	};
+
+	class Bullet_127x55: Bullet_Base
+	{
+		class DamageApplied
+		{
+			type="Projectile";
+			dispersion=0;
+			bleedThreshold=1;
+			defaultDamageOverride[]=
+			{
+				{0.5,1}
+			};
+			class Health
+			{
+				damage=600;
+			};
+			class Blood
+			{
+				damage=110;
+			};
+			class Shock
+			{
+				damage=60;
+			};
+		};
+	};
+
+	class Bullet_12_7x55: Bullet_Base
+	{
+		class DamageApplied
+		{
+			type="Projectile";
+			dispersion=0;
+			bleedThreshold=1;
+			defaultDamageOverride[]=
+			{
+				{0.5,1}
+			};
+			class Health
+			{
+				damage=8000;
 			};
 			class Blood
 			{

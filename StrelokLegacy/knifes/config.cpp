@@ -33,4 +33,19 @@ class CfgVehicles
 			};
 		};
 	};
+
+	class air_weapon_knife_geralt;
+    class SL_Knife_geralt : air_weapon_knife_geralt
+	{
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=90000000;
+				};
+			};
+		};
+	};
 };
