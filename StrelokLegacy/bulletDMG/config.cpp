@@ -401,7 +401,7 @@ class CfgAmmo
 		};
 	};
 
-	class Bullet_127x55: Bullet_Base
+	class air_Bullet_127x55: Bullet_Base
 	{
 		class DamageApplied
 		{
