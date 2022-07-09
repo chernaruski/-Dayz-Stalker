@@ -2,32 +2,32 @@
 //Староста
 <TraderMarker> 			0
 <TraderMarkerPosition>	4619,   76.145, 1809
-<TraderMarkerSafezone>	0
+<TraderMarkerSafezone>	35
 
 //Сидорович
 <TraderMarker> 			1
 <TraderMarkerPosition>	4545.7, 71.36,  1814.8
-<TraderMarkerSafezone>	0
+<TraderMarkerSafezone>	10
 
 //Скряга
 <TraderMarker> 			2
 <TraderMarkerPosition>	4854.3, 92.2,   2375.1
-<TraderMarkerSafezone>	0
+<TraderMarkerSafezone>	10
 
 //Бармен
 <TraderMarker> 			3
 <TraderMarkerPosition>	4866.8, 122,    6673
-<TraderMarkerSafezone>	0
+<TraderMarkerSafezone>	10
 
 //Сахаров
 <TraderMarker> 			4
 <TraderMarkerPosition>	2454,   38.1,   6209.74
-<TraderMarkerSafezone>	0
+<TraderMarkerSafezone>	10
 
 //Долг
 <TraderMarker> 			5
 <TraderMarkerPosition>	1649.5, 42.554, 4088
-<TraderMarkerSafezone>	0
+<TraderMarkerSafezone>	10
 
 // ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
 
