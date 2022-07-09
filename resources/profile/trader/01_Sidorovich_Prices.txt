@@ -1,0 +1,6 @@
+<Trader> Сидорович
+	<Category> Хабар
+		CaninaBerry,			*,		-1,		1
+
+<OpenFile> 02_Skrjaga_Prices.txt
+<FileEnd>

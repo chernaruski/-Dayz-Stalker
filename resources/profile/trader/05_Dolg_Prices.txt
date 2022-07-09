@@ -1,0 +1,6 @@
+<Trader> Долг
+	<Category> Долг
+		CaninaBerry,			*,		-1,		1
+
+//<OpenFile>
+<FileEnd>

@@ -1,0 +1,9 @@
+// ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
+
+<Object> 			NPC_AoD_Voronin
+<ObjectPosition>	1649.5,    42.554,     4088
+<ObjectOrientation>	165,         0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+//<OpenFile>
+<FileEnd>

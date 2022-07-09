@@ -1,0 +1,6 @@
+<Trader> Бармен
+	<Category> Бармен
+		CaninaBerry,			*,		-1,		1
+
+<OpenFile> 04_Saharov_Prices.txt
+<FileEnd>

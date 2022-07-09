@@ -1,0 +1,6 @@
+<Trader> Профессор Сахаров
+	<Category> Сахаров
+		CaninaBerry,			*,		-1,		1
+
+<OpenFile> 05_Dolg_Prices.txt
+<FileEnd>

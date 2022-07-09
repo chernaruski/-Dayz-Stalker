@@ -1,0 +1,14 @@
+<CurrencyName> #tm_ruble
+	<Currency> MoneyRuble1, 	1
+	<Currency> MoneyRuble5, 	5
+	<Currency> MoneyRuble10, 	10
+	<Currency> MoneyRuble25, 	25
+	<Currency> MoneyRuble50, 	50
+	<Currency> MoneyRuble100, 	100
+
+<Trader> Староста
+	<Category> Vegetables
+		CaninaBerry,			*,		1,		-1
+
+<OpenFile> 01_Sidorovich_Prices.txt
+<FileEnd>
