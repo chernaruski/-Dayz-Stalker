@@ -7,8 +7,29 @@
 	<Currency> MoneyRuble100, 	100
 
 <Trader> Староста
-	<Category> Vegetables
-		CaninaBerry,			*,		1,		-1
+	<Category> Охота
+		GoatSteakMeat,		    *,		-1,		1
+		MouflonSteakMeat,       *,		-1,		1
+		BoarSteakMeat,		    *,		-1,		1
+		PigSteakMeat,		    *,		-1,		1
+		DeerSteakMeat,		    *,		-1,		1
+		WolfSteakMeat,		    *,		-1,		1
+		BearSteakMeat,		    *,		-1,		1
+		CowSteakMeat,		    *,		-1,		1
+		SheepSteakMeat,		    *,		-1,		1
+		FoxSteakMeat,		    *,		-1,		1
+		ChickenBreastMeat,      *,		-1,		1
+		RabbitLegMeat,          *,		-1,		1
+
+	<Category> Рыбалка
+    	MackerelFilletMeat,	    *,		-1,		1
+    	Bitterlings,    	    *,		-1,		1
+    	Carp,            	    *,		-1,		1
+    	Sardines,          	    *,		-1,		1
+    	Mackerel,          	    *,		-1,		1
+
+    <Category> Грибы и ягоды
+        GoatSteakMeat,	    	*,		-1,		1
 
 <OpenFile> 01_Sidorovich_Prices.txt
 <FileEnd>
