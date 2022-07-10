@@ -1,0 +1,6 @@
+<Trader> Ашот
+	<Category> Ашот
+		CaninaBerry,			*,		-1,		1
+
+//<OpenFile>
+<FileEnd>
