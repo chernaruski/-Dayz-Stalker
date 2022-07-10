@@ -29,6 +29,16 @@
 <TraderMarkerPosition>	1649.5, 42.554, 4088
 <TraderMarkerSafezone>	10
 
+//Чистое Небо - Суслов
+<TraderMarker> 			6
+<TraderMarkerPosition>	1477.3, 80.34,  1373.7
+<TraderMarkerSafezone>	10
+
+//Чистое Небо - Холод
+<TraderMarker> 			7
+<TraderMarkerPosition>	1517.3, 81,     1414.8
+<TraderMarkerSafezone>	10
+
 // ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
 
 <Object> 			SurvivorM_Peter
