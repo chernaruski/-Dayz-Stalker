@@ -1,6 +1,21 @@
 <Trader> Сидорович
 	<Category> Хабар
-		CaninaBerry,			*,		-1,		1
+		PowerGenerator,		*,		-1,		1
+		CableReel,			*,		-1,		1
+		BatteryCharger,		*,		-1,		1
+		BaseRadio,			*,		-1,		1
+		Megaphone,			*,		-1,		1
+		Radio,			    *,		-1,		1
+		TruckBattery,		*,		-1,		1
+		BrakeFluid,			*,		-1,		1
+		EngineOil,			*,		-1,		1
+		CarRadiator,		*,		-1,		1
+		HeadlightH7,		*,		-1,		1
+		SparkPlug,			*,		-1,		1
+		TireRepairKit,		*,		-1,		1
+		CanisterGasoline,	*,		-1,		1
+		Rangefinder,		*,		-1,		1
+		Binoculars,			*,		-1,		1
 
 <OpenFile> 02_Skrjaga_Prices.txt
 <FileEnd>
