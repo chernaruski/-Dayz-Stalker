@@ -1,0 +1,6 @@
+<Trader> Холод
+	<Category> Холод
+		CaninaBerry,			*,		-1,		1
+
+//<OpenFile>
+<FileEnd>
