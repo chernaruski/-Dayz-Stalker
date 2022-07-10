@@ -39,6 +39,11 @@
 <TraderMarkerPosition>	1517.3, 81,     1414.8
 <TraderMarkerSafezone>	10
 
+//Свобода
+<TraderMarker> 			8
+<TraderMarkerPosition>	5899.5, 146.84, 7967
+<TraderMarkerSafezone>	10
+
 // ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
 
 <Object> 			SurvivorM_Peter
